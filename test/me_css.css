@@ -1,0 +1,77 @@
+html, body{
+	font-size: 25;
+	font-style: italic;
+	text-align: justify;
+	background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    background-color: silver;
+}
+/*______________________________________________________________________________________*/
+#ris{
+	background-size:100%;
+	
+}
+.top-nav ul li{
+	display: inline-block;
+	
+}
+.top-nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 0.1em 1em;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.top-nav ul li.active a{
+	background: url(../images/active-ico.png) no-repeat 50% 100%;
+}
+.top-nav ul li.contatct-active a{
+	border:2px solid #ffffff;
+	border-radius:5px;
+}
+.top-nav ul li.contatct-active a:hover{
+	border-color:#FD3B01;
+	color:#ffffff;
+}
+.top-nav ul li a:hover{
+	color:#FD3B01;
+}
+.logo a{
+	display:block;
+}
+/*______________________________________________________________________________________*/
+.top-nav:before,
+.top-nav:after {
+    content: " ";
+    display: table;
+}
+.top-nav:after {
+    clear: both;
+}
+
+/*______________________________________________________________________________________*/
+#menu{
+	
+}
+
+.kartinka{
+	
+}
+
+.sistema{
+	font-size:100;
+}
+
+#su{
+	background-color: silver;
+}
+
+#NPC{
+	background-color: silver;
+}
+
+#podval{
+	background-color: black;
+}
